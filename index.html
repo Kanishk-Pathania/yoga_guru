@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Yoga Management</title>
+    </head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Yoga Management" class="logo">
+                
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#Registeration">Registeration</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://th.bing.com/th/id/OIP.n_iJ2NRXjqiawjMy5xxelQHaGB?w=208&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7" class="d-block w-100" alt="slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.dribbble.com/users/1595894/screenshots/4145510/media/67b2af101846badc8edd98ad45d15784.jpg?resize=400x0" class="d-block w-100" alt="slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://th.bing.com/th?id=OIP.ZPlp_cvV47t_1MhVjgj6PAHaE8&w=306&h=204&c=8&rs=1&qlt=90&r=0&o=6&dpr=1.6&pid=3.1&rm=2" class="d-block w-100" alt="slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Yoga Overview Section -->
+<section id="overview" class="yoga-overview">
+    <div class="container">
+        <h2>Overview of Yoga</h2>
+        <p>
+            <strong>Yoga </strong>derived from the Sankrit word "yuj" which means "to unite or integrate" yoga is a 5,000+ year old Indian body of knowledge. Yoga is all about harmonizing the body with the mind and breath through the means of various breathing exercises, yoga poses (asanas) and meditation. Though many think of yoga only as a physical exercise where people twist, turn, stretch, and breathe in the most complex ways, these are actually only the most superficial aspect of this profound science of unfolding the infinite potentials of the human mind and soul.
+
+The science of Yoga imbibe itself the complete essence of the Way of Life, including - Gyan Yoga or philosophy, Bhakti Yoga or path of devotional bliss, Karma Yoga or path of blissful action, and Raja Yoga or path of mind control. Raja Yoga is further divided into eight parts. At the heart of the Raja Yoga system, balancing and unifying these various approaches, is the practice of Yoga Asana.
+            Yoga is an ancient practice that combines physical postures, breathing exercises, and meditation to promote overall well-being. 
+            It originated in India over 5,000 years ago and has since evolved into various styles and schools, each offering unique benefits.
+        </p>
+        <p>
+            The practice of yoga helps improve flexibility, strength, and balance. It also reduces stress, enhances mental clarity, and promotes emotional stability. 
+            Whether you are looking to improve your physical health, find inner peace, or connect with a community, yoga offers something for everyone.
+        </p>
+        <h2>Benefits of yoga</h2>
+        <div class="overview-content">
+            <div class="full-width-image">
+                <img src="yoga benefits..png" alt="Yoga Practice" class="yoga-image">
+            </div>
+        </div>
+</section>
+
+<!--Yoga Registeratioin Section-->
+<section id="Registration" class="yoga-class-registration">
+    <div class="container">
+        <h2>Registeration Please!!</h2>
+        <p class="text-center">Join Us!</p>
+        <p class="text-center"><em>Don't leave without a smile!</em></p>
+        <p class="text-center">Talk to our experts and learn more about our management.</p>
+        
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="email" class="form-label">Age <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="age" name="age" placeholder="How old are you?" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="message" class="form-label">Email</label>
+                <textarea class="form-control" id="Email" name="message" rows="3" placeholder="Enter your email"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Contact</label>
+                <textarea class="form-control" id="Contatct" name="message" rows="3" placeholder="Enter your Contact number"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="" name="message" rows="3" placeholder="How can we help you?"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+</body>
+</html>
